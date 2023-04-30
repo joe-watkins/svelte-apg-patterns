@@ -6,7 +6,7 @@
 
 <Header />
 
-<main class="container mx-auto xl mb-10" tabindex="-1">
+<main class="container mx-auto max-w-7xl mb-10" tabindex="-1">
     <slot />
 </main>
 

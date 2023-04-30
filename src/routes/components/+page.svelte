@@ -26,6 +26,13 @@
         componentPage="/components/alert">
         I am the description.
     </ComponentCard>
+    <ComponentCard 
+        name="Alert Dialog" 
+        imgUrl="./src/assets/alert-dialog.png"
+        imageAlt=""
+        componentPage="/components/alert-dialog">
+        I am the description.
+    </ComponentCard>
 </div>
 
 
