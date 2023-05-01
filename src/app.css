@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+code {
+    background: #f6f8fa !important;
+    border-radius: 5px;
+    outline: 1px solid #dbdbdb;
+}

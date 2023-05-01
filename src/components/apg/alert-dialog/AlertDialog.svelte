@@ -1,6 +1,8 @@
 <script>
 	import Dialog from "./Dialog.svelte";
+
 	import { onMount } from "svelte";
+
 	let btnLoadingState = false;
 	let btnSavedState = false;
 	let disableDiscardBtn = false;
@@ -133,6 +135,7 @@ button {
     text-decoration: none;
     font-weight: 700;
 	color: #fff;
+	margin-bottom: 3em;
 }
 	
 button:focus-visible {
@@ -147,6 +150,9 @@ button:focus-visible {
   min-width: 400px;
   max-width: 100%;
   width: 33%;
+  outline: 1px solid #222;
+  padding: .5em;
+  margin-bottom: 1em;
 }
 
 .visually-hidden {

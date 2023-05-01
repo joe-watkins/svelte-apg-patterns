@@ -12,6 +12,7 @@
     border: 2px solid hsl(206deg 74% 54%);
     border-radius: 4px;
     background: hsl(206deg 74% 90%);
+    margin-bottom: 1em;
 }
 
 [role="alert"]:empty {

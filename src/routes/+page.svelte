@@ -36,4 +36,11 @@
         componentPage="/components/alert-dialog">
         I am the description.
     </ComponentCard>
+    <ComponentCard 
+        name="Breadcrumb" 
+        imgUrl="./src/assets/breadcrumb.png"
+        imageAlt=""
+        componentPage="/components/breadcrumb">
+        I am the description.
+    </ComponentCard>
 </div>

@@ -1,5 +1,14 @@
 <script>
 	import Alert from "../../../components/apg/alert/Alert.svelte";
+
+    /* Syntax Highlighting */
+	import { HighlightAuto } from "svelte-highlight";
+	import github from "svelte-highlight/styles/github";
+
+    // Usage 
+    const code = `
+<Alert alertMsg={alertMsg} />    
+`;
 	
 	let alertMsg = "";
 	
@@ -12,11 +21,26 @@
 	}
 </script>
 
+<svelte:head>
+  {@html github}
+</svelte:head>
+
+<div class="prose prose-xl max-w-none mb-4">
+	<h1>Alert</h1>
+    <h2>Description</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit ipsa molestias placeat, dolorum asperiores quibusdam autem, laboriosam veniam totam vel fuga beatae a accusamus, sunt dolor amet tenetur adipisci exercitationem?</p>
+</div>
+
 <button on:click={updateAlert}>
 	Trigger Alert 
 </button>
 
 <Alert alertMsg={alertMsg} />
+
+<div class="prose prose-xl max-w-none mb-4">
+    <h2>Usage</h2>
+    <HighlightAuto {code} />
+</div>
 
 <style>
 button {
